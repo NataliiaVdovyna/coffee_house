@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head"><h1>COFFEE HOUSE</h1></header>
+    <div class="user">
+        <input type="text" class="name2" name="surname" placeholder="Введіть Прізвище">
+        <input type="text" class="name2" name="name" placeholder="Введіть Ім'я">
+    </div>
+    <div class="choice">
+        <div class="block_1">
+            <div class="item">
+            <input type="checkbox" name="menu" id="espresso" data-price="80" data-goods="Espresso" onchange="totalSumm()">
+            <label for="espresso">Espresso 80грн.</label>
+            <input type="number" name="quantity" placeholder="0" min="0" max="100"  onchange="totalSumm()">
+        </div>
+        <div class="item">
+            <input type="checkbox" name="menu" id="americano" data-price="110" data-goods="Американо" onchange="totalSumm()"> 
+            <label for="americano">Американо 110грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()">
+        </div>
+        <div class="item">
+            <input type="checkbox" name="menu" id="latte" data-price="120" data-goods="Латте" onchange="totalSumm()">
+            <label for="latte">Латте 120грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()"> 
+        </div>
+        <div class="item">
+            <input type="checkbox" name="menu" id="cappuccino" data-price="90" data-goods="Капучино" onchange="totalSumm()">
+            <label for="cappuccino">Капучино 90грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()"> 
+        </div> 
+    </div>
+    <div class="block_2">   
+        <div class="item item_2">
+            <input type="checkbox" name="menu" id="chocolate_cupcake" data-price="80" data-goods="Шоколадний кекс" onchange="totalSumm()">
+            <label for="chocolate_cupcake">Шоколадний кекс 80грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()"> 
+        </div>
+        <div class="item item_2">
+            <input type="checkbox" name="menu" id="blueberry_cupcake" data-price="90" data-goods="Чорничний кекс" onchange="totalSumm()">
+            <label for="blueberry_cupcake">Чорничний кекс 90грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()"> 
+        </div>
+        <div class="item item_2">
+            <input type="checkbox" name="menu" id="apple_tart" data-price="100" data-goods="Яблучний тарт" onchange="totalSumm()">
+            <label for="apple_tart">Яблучний тарт 100грн.</label>
+            <input type="number" name="quantity" placeholder="0"  onchange="totalSumm()"> 
+        </div> 
+        </div>       
+    </div>
+    <p>Всього: <span class="result">0 грн.</span></p>
+    <div class="checkout"><button class="btn" >оформити замовлення</button></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
