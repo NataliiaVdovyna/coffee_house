@@ -2,23 +2,12 @@
 ## Requirements
 - Any modern operating system (Windows, macOS, Linux)
 - A web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.)
+ 
+## Clone this project to your computer:
 
-## Downloading Files
-
-1. **CSS File**:
-    - Right-click on the file `style.css`.
-    - Select the "Save As..." option.
-    - Save the file to your desired directory on your computer.
-
-2. **HTML File**:
-    - Right-click on the file `index.html`.
-    - Select the "Save As..." option.
-    - Save the file to your desired directory on your computer.
-
-3. **JavaScript File**:
-    - Right-click on the file `script.js`.
-    - Select the "Save As..." option.
-    - Save the file to your desired directory on your computer.
+```markdown
+$ git clone https://github.com/NataliiaVdovyna/coffee_house.git
+```
 
 ## Setting Up the Project
 
