@@ -1,4 +1,3 @@
-
 ## Requirements
 - Any modern operating system (Windows, macOS, Linux)
 - A web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.)
